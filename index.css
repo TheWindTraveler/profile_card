@@ -1,0 +1,50 @@
+/* CSS Variables */
+:root{
+    --background__color: #ddebf8;
+    --font__color: #2b2839;
+    --border__color: #d8cefe;
+    --button__color: #3e259c;
+    --button__hover__background: black;
+}
+
+/* Body */
+body{
+    font-family: "Alegreya", serif;
+}
+
+/* Overall Container */
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: var(--background__color);
+    border-bottom: 5px solid var(--border__color);
+    border-radius: 3px;
+    text-align: center;
+}
+
+/* Profile Photo */
+.profile__photo{
+    width: 200px;
+}
+
+/* Button Styles */
+.btn{
+    border: 1px solid var(--border__color);
+    width: 150px;
+    background-color: var(--button__color);
+    color: var(--background__color);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Alegreya", serif;
+    cursor: pointer;
+}
+
+/* Button Hover */
+.btn:hover{
+    background-color: var(--button__hover__background);
+}
